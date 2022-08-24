@@ -1,5 +1,20 @@
 {
-  "extends": "plugin:react/recommended"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "plugin":[
+         
+             "react/recommended"
+         
+    ],
+           "no-unused-vars": [
+     "error",
+     {
+       "argsIgnorePattern": "^_",
+       "varsIgnorePattern": "^_"
+     }
+   ],
+   "react/display-name": 0
+ }
 
 }
 
